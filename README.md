@@ -80,6 +80,11 @@ What changed:
 - `/trader-pelosi` cross-checks with `get_politician_trades` (adds the
   Senate), `/trader-tax` reads Robinhood's real lots, `/trader-alerts` can
   fall back to `get_equity_quotes`.
+- `/trader-auto` (new): a dry-run auto trader. Every weekday after the open
+  it pits Copycat (Berkshire top 5), Congress (most net-bought in recent
+  disclosures) and a SPY benchmark against each other with $1,000 of paper
+  each, at most $250 traded per book per day, using live Robinhood quotes. It
+  logs what it would have done and never places an order.
 - `python3 -m unittest discover -s tests`: 185 tests, 10 of them Robinhood.
 
 ## The eleven

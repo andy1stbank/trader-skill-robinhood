@@ -50,6 +50,38 @@ script to identify itself: put your name and email in `trader/config.json`
 (`"sec_user_agent": "Your Name you@example.com"`) or in the `SEC_USER_AGENT`
 environment variable.
 
+## This fork: Robinhood
+
+A private fork of Jake Schincariol's trader-skill (MIT, credit and license
+kept) that adds Robinhood's official connector as a broker next to Alpaca and
+Interactive Brokers. Robinhood has no paper account, so it gets a fourth gate.
+
+Install this fork as a plugin in Claude Code:
+
+```
+/plugin marketplace add andy1stbank/trader-skill-robinhood
+/plugin install trader-skill@trader-skill
+```
+
+What changed:
+
+- `/trader-broker` translates each approved order into Robinhood's
+  `review_equity_order` then `place_equity_order` (dollar amounts, `gfd`,
+  `stop_market`, `market_hours`, a stable `ref_id` so a retry never buys twice,
+  specific `tax_lots` on sells) and blocks what Robinhood cannot take
+  (trailing and bracket orders, fractional limit orders, market orders after
+  hours) before you are ever asked.
+- **Gate 4:** no Robinhood order gets a yes unless Claude read
+  `get_trade_approval_setting` in the last 15 minutes and approvals were ON,
+  so every order still waits for your tap in the Robinhood app.
+- Every Robinhood ticket stays BLOCKED until you type your agent account
+  number into `trader/config.json` and set `"paper": false` yourself.
+  Template: `trader-broker/config.robinhood.example.json`.
+- `/trader-pelosi` cross-checks with `get_politician_trades` (adds the
+  Senate), `/trader-tax` reads Robinhood's real lots, `/trader-alerts` can
+  fall back to `get_equity_quotes`.
+- `python3 -m unittest discover -s tests`: 185 tests, 10 of them Robinhood.
+
 ## The eleven
 
 | command | job | what it does |

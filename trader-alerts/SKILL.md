@@ -60,7 +60,7 @@ python3 "${CLAUDE_SKILL_DIR}/alerts.py" reset aapl-above-350
   when it is back. Use `--source stooq` to try it.
 - Free quotes are delayed. They are fine for alerts and for checking sizes,
   not for timing an order. The broker's price is the one that fills.
-- If both are down, read prices from the broker connector (Alpaca
+- If both are down, read prices from the broker connector (Robinhood `get_equity_quotes`, Alpaca
   `get_stock_snapshot`, IBKR `get_price_snapshot`) and write them into
   `trader/prices.json` as `{"as_of": "...", "prices": {"AAPL": 341.27}}`.
 

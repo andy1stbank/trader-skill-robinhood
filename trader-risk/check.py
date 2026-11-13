@@ -122,10 +122,10 @@ def account(cfg, portfolio, prices):
 
 
 def placed_today(state, today):
-    """Orders recorded as placed today by trader-broker."""
+    """Orders placed (or sent to the Robinhood app) today by trader-broker."""
     out = []
     for rec in (state or {}).get("orders", []):
-        if rec.get("status") == "placed" and str(rec.get("date") or str(rec.get("at", ""))[:10]) == today:
+        if rec.get("status") in ("placed", "awaiting_app") and str(rec.get("date") or str(rec.get("at", ""))[:10]) == today:
             out.append(rec)
     return out
 

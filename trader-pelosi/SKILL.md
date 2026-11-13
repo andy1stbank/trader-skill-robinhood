@@ -139,6 +139,15 @@ does not click it or automate it. The route:
 - Never places an order, and never copies options trades.
 - Never automates the Senate agreement or any login.
 
+## With the Robinhood connector
+
+If Robinhood is connected, `get_politician_trades` (TipRanks data, House and
+Senate) is a fast second source: by member (`politician_name`) or by stock
+(`equity_symbol`). Use it to cross-check `ptr.py` rows and to cover the
+Senate, which the House Clerk does not publish. Remember both lag the trade by
+up to 45 days: a disclosure is old news on arrival, never a reason to buy
+today on its own.
+
 ## Safety
 
 - Education and tooling, not financial advice. Nothing in this pack is a

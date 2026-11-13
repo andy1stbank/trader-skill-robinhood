@@ -89,6 +89,15 @@ It never files anything, never gives a tax rate or a tax bill, never tells
 the user what they owe, never places an order, and never proposes a harvest
 that it can see would be a wash sale.
 
+## With the Robinhood connector
+
+`get_equity_tax_lots` returns Robinhood's real lots (cost basis, acquisition
+date, short or long term) per symbol: prefer them to lots rebuilt by hand.
+To sell specific lots instead of FIFO, put `"tax_lots": [{"open_lot_id": "...",
+"quantity": "..."}]` on the sell order (whole shares, not with a dollar amount
+or a stop); trader-broker passes it through to `place_equity_order`.
+`get_realized_pnl` shows what this year has already realized.
+
 ## Safety
 
 - Not tax advice, and education and tooling, not financial advice. Check with a tax professional.

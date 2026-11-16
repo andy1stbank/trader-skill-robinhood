@@ -1,0 +1,527 @@
+{
+ "source": "Tip Ranks via Robinhood get_politician_trades, 25-symbol universe, disclosures 2026-10-17..2026-11-16 only",
+ "trades": [
+  {
+   "politician_name": "Rep. Ro Khanna",
+   "symbol": "AAPL",
+   "transaction_type": "BUY",
+   "transaction_date": "2026-10-02",
+   "disclosure_date": "2026-11-09",
+   "asset_type": "EQUITY",
+   "source": "Tip Ranks"
+  },
+  {
+   "politician_name": "Sen. Shelley Moore Capito",
+   "symbol": "AAPL",
+   "transaction_type": "SELL",
+   "transaction_date": "2026-10-21",
+   "disclosure_date": "2026-11-04",
+   "asset_type": "EQUITY",
+   "source": "Tip Ranks"
+  },
+  {
+   "politician_name": "Rep. Pete Sessions",
+   "symbol": "AAPL",
+   "transaction_type": "SELL",
+   "transaction_date": "2026-10-02",
+   "disclosure_date": "2026-10-28",
+   "asset_type": "EQUITY",
+   "source": "Tip Ranks"
+  },
+  {
+   "politician_name": "Sen. Shelley Moore Capito",
+   "symbol": "MSFT",
+   "transaction_type": "SELL",
+   "transaction_date": "2026-10-21",
+   "disclosure_date": "2026-11-04",
+   "asset_type": "EQUITY",
+   "source": "Tip Ranks"
+  },
+  {
+   "politician_name": "Sen. Sheldon Whitehouse",
+   "symbol": "MSFT",
+   "transaction_type": "SELL",
+   "transaction_date": "2026-10-15",
+   "disclosure_date": "2026-11-03",
+   "asset_type": "EQUITY",
+   "source": "Tip Ranks"
+  },
+  {
+   "politician_name": "Rep. Pete Sessions",
+   "symbol": "MSFT",
+   "transaction_type": "SELL",
+   "transaction_date": "2026-10-02",
+   "disclosure_date": "2026-10-28",
+   "asset_type": "EQUITY",
+   "source": "Tip Ranks"
+  },
+  {
+   "politician_name": "Rep. Gilbert Ray Cisneros, Jr.",
+   "symbol": "NVDA",
+   "transaction_type": "SELL",
+   "transaction_date": "2026-10-20",
+   "disclosure_date": "2026-11-10",
+   "asset_type": "EQUITY",
+   "source": "Tip Ranks"
+  },
+  {
+   "politician_name": "Rep. Ro Khanna",
+   "symbol": "NVDA",
+   "transaction_type": "SELL",
+   "transaction_date": "2026-10-07",
+   "disclosure_date": "2026-11-09",
+   "asset_type": "EQUITY",
+   "source": "Tip Ranks"
+  },
+  {
+   "politician_name": "Rep. Maria Elvira Salazar",
+   "symbol": "NVDA",
+   "transaction_type": "BUY",
+   "transaction_date": "2026-10-23",
+   "disclosure_date": "2026-11-05",
+   "asset_type": "EQUITY",
+   "source": "Tip Ranks"
+  },
+  {
+   "politician_name": "Rep. Daniel Meuser",
+   "symbol": "NVDA",
+   "transaction_type": "SELL",
+   "transaction_date": "2026-09-25",
+   "disclosure_date": "2026-11-05",
+   "asset_type": "EQUITY",
+   "source": "Tip Ranks"
+  },
+  {
+   "politician_name": "Rep. Pete Sessions",
+   "symbol": "NVDA",
+   "transaction_type": "SELL",
+   "transaction_date": "2026-10-02",
+   "disclosure_date": "2026-10-28",
+   "asset_type": "EQUITY",
+   "source": "Tip Ranks"
+  },
+  {
+   "politician_name": "Rep. Cleo Fields",
+   "symbol": "NVDA",
+   "transaction_type": "BUY",
+   "transaction_date": "2026-10-01",
+   "disclosure_date": "2026-10-23",
+   "asset_type": "EQUITY",
+   "source": "Tip Ranks"
+  },
+  {
+   "politician_name": "Rep. Ro Khanna",
+   "symbol": "AMZN",
+   "transaction_type": "SELL",
+   "transaction_date": "2026-10-02",
+   "disclosure_date": "2026-11-09",
+   "asset_type": "EQUITY",
+   "source": "Tip Ranks"
+  },
+  {
+   "politician_name": "Rep. Pete Sessions",
+   "symbol": "AMZN",
+   "transaction_type": "SELL",
+   "transaction_date": "2026-10-27",
+   "disclosure_date": "2026-10-28",
+   "asset_type": "EQUITY",
+   "source": "Tip Ranks"
+  },
+  {
+   "politician_name": "Rep. Pete Sessions",
+   "symbol": "AMZN",
+   "transaction_type": "SELL",
+   "transaction_date": "2026-10-02",
+   "disclosure_date": "2026-10-28",
+   "asset_type": "EQUITY",
+   "source": "Tip Ranks"
+  },
+  {
+   "politician_name": "Rep. David Taylor",
+   "symbol": "GOOGL",
+   "transaction_type": "BUY",
+   "transaction_date": "2026-11-03",
+   "disclosure_date": "2026-11-13",
+   "asset_type": "EQUITY",
+   "source": "Tip Ranks"
+  },
+  {
+   "politician_name": "Rep. Ro Khanna",
+   "symbol": "GOOGL",
+   "transaction_type": "BUY",
+   "transaction_date": "2026-10-28",
+   "disclosure_date": "2026-11-09",
+   "asset_type": "EQUITY",
+   "source": "Tip Ranks"
+  },
+  {
+   "politician_name": "Rep. Pete Sessions",
+   "symbol": "GOOGL",
+   "transaction_type": "SELL",
+   "transaction_date": "2026-10-02",
+   "disclosure_date": "2026-10-28",
+   "asset_type": "EQUITY",
+   "source": "Tip Ranks"
+  },
+  {
+   "politician_name": "Rep. Michael A. Rulli",
+   "symbol": "GOOGL",
+   "transaction_type": "SELL",
+   "transaction_date": "2026-10-16",
+   "disclosure_date": "2026-10-20",
+   "asset_type": "EQUITY",
+   "source": "Tip Ranks"
+  },
+  {
+   "politician_name": "Rep. Gilbert Ray Cisneros, Jr.",
+   "symbol": "META",
+   "transaction_type": "BUY",
+   "transaction_date": "2026-10-09",
+   "disclosure_date": "2026-11-10",
+   "asset_type": "EQUITY",
+   "source": "Tip Ranks"
+  },
+  {
+   "politician_name": "Rep. Ro Khanna",
+   "symbol": "META",
+   "transaction_type": "BUY",
+   "transaction_date": "2026-10-28",
+   "disclosure_date": "2026-11-09",
+   "asset_type": "EQUITY",
+   "source": "Tip Ranks"
+  },
+  {
+   "politician_name": "Rep. Ro Khanna",
+   "symbol": "META",
+   "transaction_type": "SELL",
+   "transaction_date": "2026-10-02",
+   "disclosure_date": "2026-11-09",
+   "asset_type": "EQUITY",
+   "source": "Tip Ranks"
+  },
+  {
+   "politician_name": "Sen. Shelley Moore Capito",
+   "symbol": "META",
+   "transaction_type": "SELL",
+   "transaction_date": "2026-10-21",
+   "disclosure_date": "2026-11-04",
+   "asset_type": "EQUITY",
+   "source": "Tip Ranks"
+  },
+  {
+   "politician_name": "Rep. Pete Sessions",
+   "symbol": "TSLA",
+   "transaction_type": "SELL",
+   "transaction_date": "2026-10-02",
+   "disclosure_date": "2026-10-28",
+   "asset_type": "EQUITY",
+   "source": "Tip Ranks"
+  },
+  {
+   "politician_name": "Rep. David Taylor",
+   "symbol": "AVGO",
+   "transaction_type": "BUY",
+   "transaction_date": "2026-11-05",
+   "disclosure_date": "2026-11-13",
+   "asset_type": "EQUITY",
+   "source": "Tip Ranks"
+  },
+  {
+   "politician_name": "Rep. Ro Khanna",
+   "symbol": "AVGO",
+   "transaction_type": "BUY",
+   "transaction_date": "2026-10-13",
+   "disclosure_date": "2026-11-09",
+   "asset_type": "EQUITY",
+   "source": "Tip Ranks"
+  },
+  {
+   "politician_name": "Rep. John McGuire",
+   "symbol": "AVGO",
+   "transaction_type": "SELL",
+   "transaction_date": "2026-09-24",
+   "disclosure_date": "2026-11-02",
+   "asset_type": "EQUITY",
+   "source": "Tip Ranks"
+  },
+  {
+   "politician_name": "Rep. David Taylor",
+   "symbol": "V",
+   "transaction_type": "SELL",
+   "transaction_date": "2026-11-03",
+   "disclosure_date": "2026-11-13",
+   "asset_type": "EQUITY",
+   "source": "Tip Ranks"
+  },
+  {
+   "politician_name": "Rep. David Taylor",
+   "symbol": "V",
+   "transaction_type": "SELL",
+   "transaction_date": "2026-10-15",
+   "disclosure_date": "2026-10-30",
+   "asset_type": "EQUITY",
+   "source": "Tip Ranks"
+  },
+  {
+   "politician_name": "Rep. Pete Sessions",
+   "symbol": "V",
+   "transaction_type": "SELL",
+   "transaction_date": "2026-10-02",
+   "disclosure_date": "2026-10-28",
+   "asset_type": "EQUITY",
+   "source": "Tip Ranks"
+  },
+  {
+   "politician_name": "Rep. Pete Sessions",
+   "symbol": "MA",
+   "transaction_type": "SELL",
+   "transaction_date": "2026-10-02",
+   "disclosure_date": "2026-10-28",
+   "asset_type": "EQUITY",
+   "source": "Tip Ranks"
+  },
+  {
+   "politician_name": "Rep. Pete Sessions",
+   "symbol": "XOM",
+   "transaction_type": "SELL",
+   "transaction_date": "2026-10-14",
+   "disclosure_date": "2026-10-28",
+   "asset_type": "EQUITY",
+   "source": "Tip Ranks"
+  },
+  {
+   "politician_name": "Rep. David Taylor",
+   "symbol": "LLY",
+   "transaction_type": "SELL",
+   "transaction_date": "2026-11-03",
+   "disclosure_date": "2026-11-13",
+   "asset_type": "EQUITY",
+   "source": "Tip Ranks"
+  },
+  {
+   "politician_name": "Rep. Gilbert Ray Cisneros, Jr.",
+   "symbol": "LLY",
+   "transaction_type": "BUY",
+   "transaction_date": "2026-10-20",
+   "disclosure_date": "2026-11-10",
+   "asset_type": "EQUITY",
+   "source": "Tip Ranks"
+  },
+  {
+   "politician_name": "Rep. Ro Khanna",
+   "symbol": "COST",
+   "transaction_type": "BUY",
+   "transaction_date": "2026-10-12",
+   "disclosure_date": "2026-11-09",
+   "asset_type": "EQUITY",
+   "source": "Tip Ranks"
+  },
+  {
+   "politician_name": "Rep. Ro Khanna",
+   "symbol": "COST",
+   "transaction_type": "BUY",
+   "transaction_date": "2026-10-07",
+   "disclosure_date": "2026-11-09",
+   "asset_type": "EQUITY",
+   "source": "Tip Ranks"
+  },
+  {
+   "politician_name": "Rep. Pete Sessions",
+   "symbol": "COST",
+   "transaction_type": "SELL",
+   "transaction_date": "2026-10-02",
+   "disclosure_date": "2026-10-28",
+   "asset_type": "EQUITY",
+   "source": "Tip Ranks"
+  },
+  {
+   "politician_name": "Rep. Pete Sessions",
+   "symbol": "COST",
+   "transaction_type": "SELL",
+   "transaction_date": "2026-10-13",
+   "disclosure_date": "2026-10-28",
+   "asset_type": "EQUITY",
+   "source": "Tip Ranks"
+  },
+  {
+   "politician_name": "Rep. Ro Khanna",
+   "symbol": "NFLX",
+   "transaction_type": "SELL",
+   "transaction_date": "2026-10-07",
+   "disclosure_date": "2026-11-09",
+   "asset_type": "EQUITY",
+   "source": "Tip Ranks"
+  },
+  {
+   "politician_name": "Rep. Ro Khanna",
+   "symbol": "NFLX",
+   "transaction_type": "SELL",
+   "transaction_date": "2026-10-21",
+   "disclosure_date": "2026-11-09",
+   "asset_type": "EQUITY",
+   "source": "Tip Ranks"
+  },
+  {
+   "politician_name": "Rep. Ro Khanna",
+   "symbol": "BAC",
+   "transaction_type": "SELL",
+   "transaction_date": "2026-10-13",
+   "disclosure_date": "2026-11-09",
+   "asset_type": "EQUITY",
+   "source": "Tip Ranks"
+  },
+  {
+   "politician_name": "Rep. Laurel M. Lee",
+   "symbol": "BAC",
+   "transaction_type": "SELL",
+   "transaction_date": "2026-08-24",
+   "disclosure_date": "2026-10-19",
+   "asset_type": "EQUITY",
+   "source": "Tip Ranks"
+  },
+  {
+   "politician_name": "Rep. Ro Khanna",
+   "symbol": "WMT",
+   "transaction_type": "SELL",
+   "transaction_date": "2026-10-07",
+   "disclosure_date": "2026-11-09",
+   "asset_type": "EQUITY",
+   "source": "Tip Ranks"
+  },
+  {
+   "politician_name": "Rep. Ro Khanna",
+   "symbol": "WMT",
+   "transaction_type": "BUY",
+   "transaction_date": "2026-10-13",
+   "disclosure_date": "2026-11-09",
+   "asset_type": "EQUITY",
+   "source": "Tip Ranks"
+  },
+  {
+   "politician_name": "Rep. Pete Sessions",
+   "symbol": "WMT",
+   "transaction_type": "SELL",
+   "transaction_date": "2026-10-02",
+   "disclosure_date": "2026-10-28",
+   "asset_type": "EQUITY",
+   "source": "Tip Ranks"
+  },
+  {
+   "politician_name": "Rep. Jonathan L. Jackson",
+   "symbol": "WMT",
+   "transaction_type": "SELL",
+   "transaction_date": "2026-09-28",
+   "disclosure_date": "2026-10-20",
+   "asset_type": "EQUITY",
+   "source": "Tip Ranks"
+  },
+  {
+   "politician_name": "Rep. David Taylor",
+   "symbol": "HD",
+   "transaction_type": "SELL",
+   "transaction_date": "2026-11-05",
+   "disclosure_date": "2026-11-13",
+   "asset_type": "EQUITY",
+   "source": "Tip Ranks"
+  },
+  {
+   "politician_name": "Rep. Gilbert Ray Cisneros, Jr.",
+   "symbol": "HD",
+   "transaction_type": "SELL",
+   "transaction_date": "2026-10-06",
+   "disclosure_date": "2026-11-10",
+   "asset_type": "EQUITY",
+   "source": "Tip Ranks"
+  },
+  {
+   "politician_name": "Rep. Ro Khanna",
+   "symbol": "HD",
+   "transaction_type": "SELL",
+   "transaction_date": "2026-10-07",
+   "disclosure_date": "2026-11-09",
+   "asset_type": "EQUITY",
+   "source": "Tip Ranks"
+  },
+  {
+   "politician_name": "Rep. Ro Khanna",
+   "symbol": "HD",
+   "transaction_type": "BUY",
+   "transaction_date": "2026-10-13",
+   "disclosure_date": "2026-11-09",
+   "asset_type": "EQUITY",
+   "source": "Tip Ranks"
+  },
+  {
+   "politician_name": "Rep. Pete Sessions",
+   "symbol": "HD",
+   "transaction_type": "SELL",
+   "transaction_date": "2026-10-22",
+   "disclosure_date": "2026-10-28",
+   "asset_type": "EQUITY",
+   "source": "Tip Ranks"
+  },
+  {
+   "politician_name": "Rep. Ro Khanna",
+   "symbol": "ORCL",
+   "transaction_type": "SELL",
+   "transaction_date": "2026-10-13",
+   "disclosure_date": "2026-11-09",
+   "asset_type": "EQUITY",
+   "source": "Tip Ranks"
+  },
+  {
+   "politician_name": "Rep. Ro Khanna",
+   "symbol": "CRM",
+   "transaction_type": "BUY",
+   "transaction_date": "2026-10-13",
+   "disclosure_date": "2026-11-09",
+   "asset_type": "EQUITY",
+   "source": "Tip Ranks"
+  },
+  {
+   "politician_name": "Rep. Lloyd Doggett",
+   "symbol": "KO",
+   "transaction_type": "BUY",
+   "transaction_date": "2026-10-01",
+   "disclosure_date": "2026-11-12",
+   "asset_type": "EQUITY",
+   "source": "Tip Ranks"
+  },
+  {
+   "politician_name": "Rep. David Taylor",
+   "symbol": "PG",
+   "transaction_type": "SELL",
+   "transaction_date": "2026-11-05",
+   "disclosure_date": "2026-11-13",
+   "asset_type": "EQUITY",
+   "source": "Tip Ranks"
+  },
+  {
+   "politician_name": "Rep. Maria Elvira Salazar",
+   "symbol": "PG",
+   "transaction_type": "BUY",
+   "transaction_date": "2026-10-23",
+   "disclosure_date": "2026-11-05",
+   "asset_type": "EQUITY",
+   "source": "Tip Ranks"
+  },
+  {
+   "politician_name": "Rep. Pete Sessions",
+   "symbol": "PG",
+   "transaction_type": "SELL",
+   "transaction_date": "2026-10-08",
+   "disclosure_date": "2026-10-28",
+   "asset_type": "EQUITY",
+   "source": "Tip Ranks"
+  },
+  {
+   "politician_name": "Rep. Pete Sessions",
+   "symbol": "DIS",
+   "transaction_type": "SELL",
+   "transaction_date": "2026-10-28",
+   "disclosure_date": "2026-10-28",
+   "asset_type": "EQUITY",
+   "source": "Tip Ranks"
+  }
+ ]
+}

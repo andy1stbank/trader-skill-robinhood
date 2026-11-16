@@ -69,6 +69,13 @@ class Run(unittest.TestCase):
         code, text, _ = self.run_("run", "--prices", self.p, "--today", "2026-11-13")
         self.assertIn("Already ran", text)
 
+    def test_day_one_spreads_across_targets(self):
+        self.run_("run", "--prices", self.p, "--congress", self.c, "--today", "2026-11-13")
+        with open(self.st) as fh:
+            st = json.load(fh)
+        bought = {o["symbol"] for o in st["books"]["copycat"]["orders"]}
+        self.assertEqual(bought, {"AAPL", "AXP", "GOOGL", "KO", "BAC"})
+
     def test_fully_deployed_after_four_days_never_negative_cash(self):
         for d in ("2026-11-13", "2026-11-16", "2026-11-17", "2026-11-18", "2026-11-19"):
             self.run_("run", "--prices", self.p, "--congress", self.c, "--today", d)

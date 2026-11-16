@@ -146,10 +146,12 @@ def step(book, targets, prices, cfg, today):
             book["cash"] = round(book["cash"] + amt, 2)
             room -= amt
             orders.append({"symbol": s, "side": "sell", "dollar_amount": "%.2f" % amt, "price": prices[s]})
-    # buys: biggest shortfall first, never below zero cash
-    gaps = sorted(((want[s] - have.get(s, 0.0), s) for s in want), reverse=True)
-    for gap, s in gaps:
-        amt = round(min(gap, room, book["cash"]), 2)
+    # buys: today's room is shared across every shortfall in proportion, never below zero cash
+    gaps = {s: want[s] - have.get(s, 0.0) for s in want if want[s] - have.get(s, 0.0) > 0}
+    budget = min(room, book["cash"], sum(gaps.values()))
+    total_gap = sum(gaps.values()) or 1.0
+    for s in sorted(gaps, key=lambda k: -gaps[k]):
+        amt = round(min(budget * gaps[s] / total_gap, gaps[s], book["cash"]), 2)
         if amt < cfg["min_trade_usd"]:
             continue
         book["positions"][s] = book["positions"].get(s, 0.0) + amt / prices[s]

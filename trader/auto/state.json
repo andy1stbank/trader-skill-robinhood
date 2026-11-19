@@ -2,20 +2,20 @@
   "start": "2026-11-16",
   "books": {
     "copycat": {
-      "cash": 250.01,
+      "cash": 0.01,
       "positions": {
-        "AAPL": 0.6467587770394879,
-        "AXP": 0.5653372882517079,
-        "GOOGL": 0.4622497645511655,
-        "KO": 1.1512177790520015,
-        "BAC": 1.9359114046085506
+        "AAPL": 0.8710527565319551,
+        "AXP": 0.7557252220409327,
+        "GOOGL": 0.5968122804246411,
+        "KO": 1.5739512594596075,
+        "BAC": 2.6045601640918394
       },
       "last_px": {
-        "AAPL": 354.14,
-        "AXP": 313.685,
-        "GOOGL": 283.6101,
-        "KO": 97.255,
-        "BAC": 49.125
+        "AAPL": 349.14,
+        "AXP": 312.94,
+        "GOOGL": 291.7603,
+        "KO": 95.19,
+        "BAC": 48.77
       },
       "targets": {
         "AAPL": 30.67,
@@ -174,6 +174,56 @@
           "time_in_force": "gfd",
           "date": "2026-11-18",
           "placed": false
+        },
+        {
+          "symbol": "AAPL",
+          "side": "buy",
+          "dollar_amount": "78.31",
+          "price": 349.14,
+          "type": "market",
+          "time_in_force": "gfd",
+          "date": "2026-11-19",
+          "placed": false
+        },
+        {
+          "symbol": "AXP",
+          "side": "buy",
+          "dollar_amount": "59.58",
+          "price": 312.94,
+          "type": "market",
+          "time_in_force": "gfd",
+          "date": "2026-11-19",
+          "placed": false
+        },
+        {
+          "symbol": "KO",
+          "side": "buy",
+          "dollar_amount": "40.24",
+          "price": 95.19,
+          "type": "market",
+          "time_in_force": "gfd",
+          "date": "2026-11-19",
+          "placed": false
+        },
+        {
+          "symbol": "GOOGL",
+          "side": "buy",
+          "dollar_amount": "39.26",
+          "price": 291.7603,
+          "type": "market",
+          "time_in_force": "gfd",
+          "date": "2026-11-19",
+          "placed": false
+        },
+        {
+          "symbol": "BAC",
+          "side": "buy",
+          "dollar_amount": "32.61",
+          "price": 48.77,
+          "type": "market",
+          "time_in_force": "gfd",
+          "date": "2026-11-19",
+          "placed": false
         }
       ],
       "marks": [
@@ -188,20 +238,24 @@
         {
           "date": "2026-11-18",
           "value": 994.55
+        },
+        {
+          "date": "2026-11-19",
+          "value": 991.6
         }
       ]
     },
     "congress": {
-      "cash": 250.01,
+      "cash": 0.01,
       "positions": {
-        "AVGO": 0.716401876037647,
-        "CRM": 1.277284233623526,
-        "KO": 2.5300748386631025
+        "AVGO": 0.9173151180467795,
+        "CRM": 1.7407920166983013,
+        "KO": 3.4716653418672205
       },
       "last_px": {
-        "KO": 97.255,
-        "AVGO": 352.0001,
-        "CRM": 189.61
+        "KO": 95.19,
+        "AVGO": 360.255,
+        "CRM": 189.835
       },
       "targets": {
         "AVGO": 33.3333,
@@ -298,6 +352,36 @@
           "time_in_force": "gfd",
           "date": "2026-11-18",
           "placed": false
+        },
+        {
+          "symbol": "KO",
+          "side": "buy",
+          "dollar_amount": "89.63",
+          "price": 95.19,
+          "type": "market",
+          "time_in_force": "gfd",
+          "date": "2026-11-19",
+          "placed": false
+        },
+        {
+          "symbol": "CRM",
+          "side": "buy",
+          "dollar_amount": "87.99",
+          "price": 189.835,
+          "type": "market",
+          "time_in_force": "gfd",
+          "date": "2026-11-19",
+          "placed": false
+        },
+        {
+          "symbol": "AVGO",
+          "side": "buy",
+          "dollar_amount": "72.38",
+          "price": 360.255,
+          "type": "market",
+          "time_in_force": "gfd",
+          "date": "2026-11-19",
+          "placed": false
         }
       ],
       "marks": [
@@ -312,16 +396,20 @@
         {
           "date": "2026-11-18",
           "value": 990.43
+        },
+        {
+          "date": "2026-11-19",
+          "value": 991.41
         }
       ]
     },
     "benchmark": {
-      "cash": 250.0,
+      "cash": 0.0,
       "positions": {
-        "SPY": 1.0159882693181048
+        "SPY": 1.3567595027736614
       },
       "last_px": {
-        "SPY": 733.06
+        "SPY": 733.63
       },
       "targets": {
         "SPY": 100.0
@@ -356,6 +444,16 @@
           "time_in_force": "gfd",
           "date": "2026-11-18",
           "placed": false
+        },
+        {
+          "symbol": "SPY",
+          "side": "buy",
+          "dollar_amount": "250.00",
+          "price": 733.63,
+          "type": "market",
+          "time_in_force": "gfd",
+          "date": "2026-11-19",
+          "placed": false
         }
       ],
       "marks": [
@@ -370,6 +468,10 @@
         {
           "date": "2026-11-18",
           "value": 994.78
+        },
+        {
+          "date": "2026-11-19",
+          "value": 995.36
         }
       ]
     }
@@ -412,6 +514,19 @@
         "GOOGL": 283.6101,
         "KO": 97.255,
         "SPY": 733.06
+      }
+    },
+    {
+      "date": "2026-11-19",
+      "prices": {
+        "AAPL": 349.14,
+        "AVGO": 360.255,
+        "AXP": 312.94,
+        "BAC": 48.77,
+        "CRM": 189.835,
+        "GOOGL": 291.7603,
+        "KO": 95.19,
+        "SPY": 733.63
       }
     }
   ]

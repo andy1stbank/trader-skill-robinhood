@@ -1,5 +1,5 @@
 {
- "source": "Tip Ranks via Robinhood get_politician_trades, 25-symbol universe, disclosures 2026-10-17..2026-11-16 only",
+ "source": "Tip Ranks via Robinhood get_politician_trades, 25-symbol universe, disclosures 2026-10-24..2026-11-23 only",
  "trades": [
   {
    "politician_name": "Rep. Ro Khanna",
@@ -29,6 +29,24 @@
    "source": "Tip Ranks"
   },
   {
+   "politician_name": "Rep. Thomas H. Kean, Jr.",
+   "symbol": "MSFT",
+   "transaction_type": "SELL",
+   "transaction_date": "2026-10-27",
+   "disclosure_date": "2026-11-19",
+   "asset_type": "EQUITY",
+   "source": "Tip Ranks"
+  },
+  {
+   "politician_name": "Rep. Michael A. Rulli",
+   "symbol": "MSFT",
+   "transaction_type": "BUY",
+   "transaction_date": "2026-11-04",
+   "disclosure_date": "2026-11-18",
+   "asset_type": "EQUITY",
+   "source": "Tip Ranks"
+  },
+  {
    "politician_name": "Sen. Shelley Moore Capito",
    "symbol": "MSFT",
    "transaction_type": "SELL",
@@ -52,6 +70,15 @@
    "transaction_type": "SELL",
    "transaction_date": "2026-10-02",
    "disclosure_date": "2026-10-28",
+   "asset_type": "EQUITY",
+   "source": "Tip Ranks"
+  },
+  {
+   "politician_name": "Rep. Michael A. Rulli",
+   "symbol": "NVDA",
+   "transaction_type": "SELL",
+   "transaction_date": "2026-10-28",
+   "disclosure_date": "2026-11-18",
    "asset_type": "EQUITY",
    "source": "Tip Ranks"
   },
@@ -101,15 +128,6 @@
    "source": "Tip Ranks"
   },
   {
-   "politician_name": "Rep. Cleo Fields",
-   "symbol": "NVDA",
-   "transaction_type": "BUY",
-   "transaction_date": "2026-10-01",
-   "disclosure_date": "2026-10-23",
-   "asset_type": "EQUITY",
-   "source": "Tip Ranks"
-  },
-  {
    "politician_name": "Rep. Ro Khanna",
    "symbol": "AMZN",
    "transaction_type": "SELL",
@@ -137,6 +155,15 @@
    "source": "Tip Ranks"
   },
   {
+   "politician_name": "Rep. Michael A. Rulli",
+   "symbol": "GOOGL",
+   "transaction_type": "SELL",
+   "transaction_date": "2026-11-04",
+   "disclosure_date": "2026-11-18",
+   "asset_type": "EQUITY",
+   "source": "Tip Ranks"
+  },
+  {
    "politician_name": "Rep. David Taylor",
    "symbol": "GOOGL",
    "transaction_type": "BUY",
@@ -160,15 +187,6 @@
    "transaction_type": "SELL",
    "transaction_date": "2026-10-02",
    "disclosure_date": "2026-10-28",
-   "asset_type": "EQUITY",
-   "source": "Tip Ranks"
-  },
-  {
-   "politician_name": "Rep. Michael A. Rulli",
-   "symbol": "GOOGL",
-   "transaction_type": "SELL",
-   "transaction_date": "2026-10-16",
-   "disclosure_date": "2026-10-20",
    "asset_type": "EQUITY",
    "source": "Tip Ranks"
   },
@@ -290,6 +308,15 @@
    "source": "Tip Ranks"
   },
   {
+   "politician_name": "Rep. Michael A. Rulli",
+   "symbol": "LLY",
+   "transaction_type": "SELL",
+   "transaction_date": "2026-11-04",
+   "disclosure_date": "2026-11-18",
+   "asset_type": "EQUITY",
+   "source": "Tip Ranks"
+  },
+  {
    "politician_name": "Rep. David Taylor",
    "symbol": "LLY",
    "transaction_type": "SELL",
@@ -304,6 +331,15 @@
    "transaction_type": "BUY",
    "transaction_date": "2026-10-20",
    "disclosure_date": "2026-11-10",
+   "asset_type": "EQUITY",
+   "source": "Tip Ranks"
+  },
+  {
+   "politician_name": "Rep. Michael A. Rulli",
+   "symbol": "COST",
+   "transaction_type": "SELL",
+   "transaction_date": "2026-11-12",
+   "disclosure_date": "2026-11-18",
    "asset_type": "EQUITY",
    "source": "Tip Ranks"
   },
@@ -344,6 +380,15 @@
    "source": "Tip Ranks"
   },
   {
+   "politician_name": "Rep. Byron Donalds",
+   "symbol": "NFLX",
+   "transaction_type": "SELL",
+   "transaction_date": "2026-10-02",
+   "disclosure_date": "2026-11-16",
+   "asset_type": "EQUITY",
+   "source": "Tip Ranks"
+  },
+  {
    "politician_name": "Rep. Ro Khanna",
    "symbol": "NFLX",
    "transaction_type": "SELL",
@@ -371,15 +416,6 @@
    "source": "Tip Ranks"
   },
   {
-   "politician_name": "Rep. Laurel M. Lee",
-   "symbol": "BAC",
-   "transaction_type": "SELL",
-   "transaction_date": "2026-08-24",
-   "disclosure_date": "2026-10-19",
-   "asset_type": "EQUITY",
-   "source": "Tip Ranks"
-  },
-  {
    "politician_name": "Rep. Ro Khanna",
    "symbol": "WMT",
    "transaction_type": "SELL",
@@ -403,15 +439,6 @@
    "transaction_type": "SELL",
    "transaction_date": "2026-10-02",
    "disclosure_date": "2026-10-28",
-   "asset_type": "EQUITY",
-   "source": "Tip Ranks"
-  },
-  {
-   "politician_name": "Rep. Jonathan L. Jackson",
-   "symbol": "WMT",
-   "transaction_type": "SELL",
-   "transaction_date": "2026-09-28",
-   "disclosure_date": "2026-10-20",
    "asset_type": "EQUITY",
    "source": "Tip Ranks"
   },

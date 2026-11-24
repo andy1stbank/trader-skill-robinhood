@@ -1,2 +1,2 @@
-{"as_of": "2026-11-23T15:17:58Z", "source": "Robinhood get_equity_quotes last_trade_price",
- "prices": {"SPY": 723.905, "AAPL": 349.57, "AXP": 307.465, "GOOGL": 280.78, "KO": 95.945, "BAC": 48.215, "AVGO": 312.42, "CRM": 183.5411}}
+{"as_of": "2026-11-24T15:16:06Z", "source": "Robinhood get_equity_quotes last_trade_price",
+ "prices": {"SPY": 718.84, "AAPL": 352.665, "AXP": 309.71, "GOOGL": 280.365, "KO": 97.43, "BAC": 48.67, "AVGO": 304.62, "CRM": 193.74}}
